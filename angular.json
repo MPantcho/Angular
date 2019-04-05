@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "flagviz": {
+    "store": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -24,6 +24,7 @@
               "src/_redirects"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []

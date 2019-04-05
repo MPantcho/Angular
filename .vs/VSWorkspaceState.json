@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\product\\list",
+    "\\src\\app\\rest\\.swagger-codegen",
+    "\\src\\app\\rest\\api"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\src\\app\\app.component.html",
   "PreviewInSolutionExplorer": false
 }
