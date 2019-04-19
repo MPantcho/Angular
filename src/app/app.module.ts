@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { MComponent } from './m/m.component';
 import { ListComponent } from './product/list/list.component';
 import { ProductModule } from './product/product.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { ProductModule } from './product/product.module';
     BrowserModule,
     ApiModule,
     HttpClientModule,
-    ProductModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
